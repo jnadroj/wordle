@@ -1,27 +1,58 @@
-# React + TypeScript + Vite
+# Wordle Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un juego de Wordle simple creado con Vite y React. El objetivo del juego es adivinar una palabra secreta en un número limitado de intentos.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Adivina la palabra secreta.
+- Pista de letras correctas en la posición correcta.
+- Pista de letras correctas en la posición incorrecta.
+- Pista de letras incorrectas.
 
-## Expanding the ESLint configuration
+## Instalación
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clona este repositorio:
 
-- Configure the top-level `parserOptions` property like this:
+   ```bash
+   git clone https://github.com/jnadroj/wordle
+   ```
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+2. Navega al directorio del proyecto:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   ```bash
+   cd wordle
+   ```
+
+3. Instala las dependencias:
+
+   ```bash
+   pnpm install
+   ```
+
+## Uso
+
+1. Inicia la aplicación de desarrollo:
+
+   ```bash
+   pnpm dev
+   ```
+
+   Esto iniciará la aplicación en modo de desarrollo. Puedes acceder a ella en `http://localhost:5173`.
+
+2. Juega al juego Wordle y trata de adivinar la palabra secreta en el menor número de intentos posible.
+
+## Personalización
+
+Si deseas personalizar el juego o agregar nuevas características, puedes hacerlo modificando el código fuente en los archivos fuente del proyecto.
+
+## Contribución
+
+Si deseas contribuir al proyecto, ¡estamos abiertos a contribuciones! Siéntete libre de abrir problemas (issues) o enviar solicitudes de extracción (pull requests) en GitHub.
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
+
+---
+
+¡Diviértete jugando al Wordle!
