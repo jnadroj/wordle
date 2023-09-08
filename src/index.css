@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg-primary: #fff;
+    --color-bg-secondary: #f3f3f3;
+    --color-bg-default: #fff;
+    --color-bg-inverse: #818181;
+    --color-bg-btn: #6aaa64;
+    --color-bg-item-default: rgba(147, 155, 159, 0.3);
+    --color-bg-item-correct: #66a060;
+    --color-bg-item-warning: #ceb02c;
+    --color-bg-item-incorrect: #939b9f;
+    --color-bg-keyboard: rgba(218, 220, 224, 0.3);
+    --color-bg-key: rgba(211, 214, 218, 1);
+    --color-bg-backdrop: rgba(243, 243, 243, 0.89);
+
+    --color-text-primary: #202537;
+    --color-text-secondary: #56575e;
+    --color-text-default: #fff;
+    --color-text-inverse: #000000;
+
+    --font-body: "Roboto", sans-serif;
+
+    --font-weight-normal: 400;
+    --font-weight-keyboard: 600;
+    --font-weight-time: 700;
+    --font-weight-btn: 800;
+
+    --rounded-soft: 5px;
+    --rounded-hard: 15px;
+  }
+
+  .theme-dark {
+    --color-bg-primary: #262b3c;
+    --color-bg-secondary: #262b3c;
+    --color-bg-default: #262b3c;
+    --color-bg-inverse: #fff;
+    --color-bg-btn: #6aaa64;
+    --color-bg-item-default: rgba(147, 155, 159, 0.3);
+    --color-bg-item-correct: #6aaa64;
+    --color-bg-item-warning: #ceb02c;
+    --color-bg-item-incorrect: #939b9f;
+    --color-bg-keyboard: rgba(218, 220, 224, 0.03);
+    --color-bg-key: #565f7e;
+    --color-bg-backdrop: rgba(38, 43, 60, 0.89);
+
+    --color-text-primary: #dadce0;
+    --color-text-secondary: #fff;
+    --color-text-default: #fff;
+    --color-text-inverse: #fff;
+
+    --font-body: "Roboto", sans-serif;
+
+    --font-weight-normal: 400;
+    --font-weight-keyboard: 600;
+    --font-weight-time: 700;
+    --font-weight-btn: 800;
+
+    --rounded-soft: 5px;
+    --rounded-hard: 15px;
+  }
+}
+
+html {
+  font-family: var(--font-body);
+}

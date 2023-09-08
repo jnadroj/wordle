@@ -1,0 +1,15 @@
+.animate-wordle {
+  animation: wordle-card-flip 0.5s ease-in-out;
+  transform-style: preserve-3d;
+  perspective: 1000px; /* Añade perspectiva para lograr una rotación 3D */
+}
+
+@keyframes wordle-card-flip {
+  0%,
+  100% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(90deg);
+  }
+}
